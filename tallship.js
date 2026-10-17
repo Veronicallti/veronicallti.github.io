@@ -1,0 +1,1 @@
+(()=>{const img=document.querySelector('.boat-sprite img');if(!img)return;function size(){if(img.naturalHeight)document.documentElement.style.setProperty('--ship-ratio',String(img.naturalWidth/img.naturalHeight))}img.addEventListener('load',size);size()})();

@@ -1,0 +1,2 @@
+/* Preserve first-screen fit with the taller multi-mast silhouette. */
+.boat-sprite{width:min(780px,76vw,calc(22vh * var(--ship-ratio,1.5)))!important;bottom:10vh!important}.scenery-view .boat-sprite{width:min(1000px,90vw,calc(68vh * var(--ship-ratio,1.5)))!important;bottom:10vh!important}@media(max-width:650px){.boat-sprite{width:min(94vw,calc(22vh * var(--ship-ratio,1.5)))!important}.scenery-view .boat-sprite{width:min(94vw,calc(65vh * var(--ship-ratio,1.5)))!important}}
