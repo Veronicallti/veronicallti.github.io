@@ -32,3 +32,19 @@
 #home-listening-station .restored-record{image-rendering:pixelated!important;image-rendering:crisp-edges!important}
 
 .ship-wordmark img{display:block;width:156px;height:18px;image-rendering:pixelated}.dark .ship-wordmark img{filter:brightness(1.8)}
+/* The cloud stays pale at night: use dark ink rather than pale night-theme text. */
+html.dark #home-listening-station .recent-caption{color:#41465f!important;--recent-icon-cutout:#c9d2e1}
+html.dark #home-listening-station .recent-pixel-icon{color:#53516e!important}
+html.dark .ocean-ambience{color:#41465f!important}
+html.dark .ocean-ambience .music-pixels{color:#5f567b!important;opacity:1!important}
+html.dark .ocean-ambience .ocean-toggle{color:#45465f!important;background:#eef0f6!important;border-color:#7b829c!important;box-shadow:3px 3px 0 #66718e45!important}
+html.dark .ocean-ambience .ocean-toggle:hover{background:#fff!important}
+html.dark .ocean-ambience .ocean-volume{opacity:1!important}
+html.dark .ocean-ambience input[type=range]{accent-color:#74628f!important;opacity:1!important}
+html.dark .ocean-ambience input[type=range]::-webkit-slider-runnable-track{background:#828ba3;border-radius:2px;height:3px}
+html.dark .ocean-ambience input[type=range]::-webkit-slider-thumb{margin-top:-6px}
+/* Readable introductory text against the pale cloud in both appearances. */
+html .glass-card .intro-single,html.dark .glass-card .intro-single{color:#555e73!important}
+html .glass-card .intro-single .intro-divider,html.dark .glass-card .intro-single .intro-divider{color:#7b8398!important}
+html .glass-card .intro-single del,html .glass-card .intro-single s{color:#6d7084!important;text-decoration-color:#6d7084!important}
+html .glass-card .quote-text,html.dark .glass-card .quote-text,html .glass-card .quote-text em,html .glass-card .quote-punctuation{color:#646079!important;opacity:1!important}
