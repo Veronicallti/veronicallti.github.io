@@ -1,0 +1,34 @@
+#home-listening-station{display:block!important;margin:12px auto 0!important}
+#home-listening-station .station-player{display:none!important}
+#home-listening-station .carousel-sleeve>img{object-fit:cover!important;border-radius:3px!important}
+#home-listening-station .station-shell{background:transparent!important;box-shadow:none!important;border:0!important}
+.recent-caption{text-align:center;font-size:10px;letter-spacing:1px;color:#8e94a7;margin:3px 0 0}
+.ocean-ambience{margin-top:5px!important;margin-bottom:0!important}
+
+.ocean-ambience{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:16px;margin:22px auto 12px;max-width:390px;padding:12px 4px;color:#7c829e;font-family:inherit}
+.ocean-lines{display:grid;line-height:7px;letter-spacing:1px;font-size:23px;color:#9eacc1;overflow:hidden;width:65px;height:28px}.ocean-lines span:nth-child(2){margin-left:-9px;opacity:.65}.ocean-lines span:nth-child(3){opacity:.35}.is-playing .ocean-lines span{animation:sea-breathe 5s ease-in-out infinite alternate}.is-playing .ocean-lines span:nth-child(2){animation-delay:-2s}
+.ocean-copy{display:grid;text-align:left;gap:4px}.ocean-name{font-size:13px;letter-spacing:2px}.ocean-name small{font-size:8px;letter-spacing:2px;margin-left:7px;opacity:.6}.ocean-status{font-size:10px;letter-spacing:1px;opacity:.8}
+.ocean-toggle{border:1px solid #aeb5cd75;background:#ffffff60;color:inherit;border-radius:50%;width:34px;height:34px;cursor:pointer;display:grid;place-items:center;font-size:17px}.ocean-toggle:hover{background:#ffffffa0}.ocean-toggle:focus-visible{outline:2px solid #9998bb;outline-offset:4px}.ocean-volume{display:flex;align-items:center;gap:7px;font-size:9px;opacity:.75}.ocean-volume input{width:58px;accent-color:#aaa0bd;height:3px;cursor:pointer}
+.dark .ocean-ambience{color:#c2c5df}.dark .ocean-toggle{background:#b4b8d618}.dark .ocean-toggle:hover{background:#b4b8d630}
+@keyframes sea-breathe{to{transform:translateX(8px);opacity:.5}}
+@media(prefers-reduced-motion:reduce){.is-playing .ocean-lines span{animation:none}}
+@media(max-width:500px){.ocean-ambience{gap:11px;margin:14px auto 6px}.ocean-volume{flex-basis:100%;justify-content:center}.ocean-status{font-size:9px}}
+
+/* Compact, single-line music control with the original square play treatment. */
+.ocean-ambience{flex-wrap:nowrap!important;gap:18px!important;margin:8px auto 0!important;padding:5px 0!important}
+.ocean-ambience .ocean-name{font-size:12px;letter-spacing:1px;line-height:36px}
+.ocean-ambience .ocean-toggle{border-radius:0!important;width:36px!important;height:34px!important;border:1px solid #a8bbc17a!important;background:#f6fafbce!important;box-shadow:3px 3px 0 #afc4cb45;color:#7c9098;font-size:17px}
+.ocean-ambience .ocean-toggle:hover{background:#fff!important}
+.ocean-ambience .ocean-volume{flex-basis:auto!important}
+.ocean-ambience .ocean-status{display:none!important}
+.dark .ocean-ambience .ocean-toggle{background:#d4d9ee20!important;color:#d5dcee;border-color:#c2c9de55!important;box-shadow:3px 3px 0 #7783a325}
+
+#home-listening-station .restored-record{display:block!important;width:176px!important;max-width:none!important;height:140px!important;object-fit:contain!important;filter:none!important;border:0!important;margin:0!important}
+.ocean-ambience .music-pixels{font-family:"SFMono-Regular",Consolas,monospace!important;font-size:3px!important;line-height:3px!important;letter-spacing:0!important;white-space:pre!important;display:block;color:#9996b1}
+@media(max-width:650px){#home-listening-station .restored-record{width:136px!important;height:108px!important;transform:translateX(-8px)}}
+
+.recent-caption{display:flex;align-items:center;justify-content:center;gap:13px;flex-wrap:wrap;line-height:1.6}.recent-item{display:inline-flex;align-items:center;gap:5px}.recent-pixel-icon{display:inline-block;width:13px;height:13px;flex:none;shape-rendering:crispEdges;color:#9795af}.dark .recent-caption{--recent-icon-cutout:#42495e;color:#c1c5d8}.dark .recent-pixel-icon{color:#c1b7d3}
+
+#home-listening-station .restored-record{image-rendering:pixelated!important;image-rendering:crisp-edges!important}
+
+.ship-wordmark img{display:block;width:156px;height:18px;image-rendering:pixelated}.dark .ship-wordmark img{filter:brightness(1.8)}
